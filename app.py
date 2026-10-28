@@ -87,4 +87,4 @@ def build_app() -> gr.ChatInterface:
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
     app = build_app()
-    app.launch(inbrowser=True, footer_links=[])
+    app.launch(footer_links=[])
