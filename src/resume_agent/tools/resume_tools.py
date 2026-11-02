@@ -1,7 +1,6 @@
 from collections.abc import Callable
 
-from resume_repository import ResumeRepository
-
+from resume_agent.repositories.resume_repository import ResumeRepository
 
 def build_resume_tool(repository: ResumeRepository) -> Callable[[], str]:
     """Create the resume retrieval tool with its dependency injected."""

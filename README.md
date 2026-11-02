@@ -16,7 +16,7 @@ The assistant can use a natural first-person voice, but it must be transparent t
 
 ## Features
 
-- **Resume-grounded answers:** retrieves professional information from `Resume.pdf` through the `get_resume` tool.
+- **Resume-grounded answers:** retrieves professional information from `data/Resume.pdf` through the `get_resume` tool.
 - **Public GitHub context:** can discover public repositories and read repository READMEs when GitHub tools are configured.
 - **Professional scope:** is designed to focus on the represented person's career, qualifications, contact details intended for public professional use, and documented projects.
 - **Multilingual responses:** responds in the language of the latest user message, depending on the configured model's capabilities.
